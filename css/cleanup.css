@@ -1,0 +1,20 @@
+/* Hide SEOPress Junk */
+#notice-get-started-alert.seopress-get-started {
+    display: none !important;
+}
+.seopress-dashboard-columns {
+    display: none !important;
+}
+#seopress-news-panel.seopress-card {
+    display: none !important;
+}
+
+/* FluentSMTP Junk */
+ul.fluent-mail-navigation li:nth-child(5), ul.fluent-mail-navigation li:nth-child(6) {
+    display: none;
+}
+
+/* Hide SEO Framework Junk */
+.plugins span.pricing {
+    display: none;
+}

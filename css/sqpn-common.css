@@ -1,0 +1,43 @@
+#wp-admin-bar-sqpn_wp_pages .ab-sub-wrapper,
+#wp-admin-bar-sqpn_bb_pages .ab-sub-wrapper,
+#wp-admin-bar-sqpn_bricks_pages .ab-sub-wrapper{
+	width: 200px !important;
+}
+
+#wp-admin-bar-search_sqpn_wp_sub_pages.sqpn-wp-pages-search .ab-item,
+#wp-admin-bar-search_sqpn_bb_sub_pages.sqpn-bb-pages-search .ab-item,
+#wp-admin-bar-search_sqpn_bricks_sub_pages.sqpn-bricks-pages-search .ab-item{
+	line-height: 37px;
+    height: 60px !important;
+}
+
+#wp-admin-bar-search_sqpn_wp_sub_pages.sqpn-wp-pages-search input,
+#wp-admin-bar-search_sqpn_bb_sub_pages.sqpn-bb-pages-search input,
+#wp-admin-bar-search_sqpn_bricks_sub_pages.sqpn-bricks-pages-search input{
+    box-sizing: border-box !important;
+	height: 40px;
+    min-width: 180px;
+    padding: 3px;
+}
+
+.sqpn-wp-pages-sub-menu a.ab-item,
+.sqpn-bb-pages-sub-menu a.ab-item,
+.sqpn-bricks-pages-sub-menu a.ab-item {
+	display: flex !important;
+	flex-direction: row;
+}
+
+li.cnw-pages-item-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.sqpn-external-link {
+	height: 22px !important;
+}
+
+li#wp-admin-bar-sqpn_bricks_templates {
+	border-top: rgba(255, 255, 255, 0.2) solid 1px;
+	padding-top: 7px !important;
+	margin-top: 5px !important;
+}

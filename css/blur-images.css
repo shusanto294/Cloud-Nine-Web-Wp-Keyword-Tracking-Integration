@@ -1,0 +1,7 @@
+/* CSS to blur images without an alt tag or with an empty alt tag */
+img:not([alt]), img[alt=""] {
+	filter: blur(8px);
+}
+#wpadminbar img.avatar {
+	filter: none !important;
+}

@@ -1,0 +1,29 @@
+.cnw-email-send input#email_subject {
+	width: 100%;
+}
+
+.cnw-user-roles-checkboxes label {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+
+div#postbox-container-1 {
+	display: none;
+}
+
+.acf-admin-notice {
+	display: none;
+}
+
+span.user-count {
+	font-size: 10px;
+	font-weight: 300;
+	padding: 1px 7px;
+	border-radius: 100px;
+	border: solid 1px #d1d1d1;
+	line-height: 1;
+}
+.postbox .inside .cnw-user-roles-checkboxes {
+	line-height: 1.5 !important;
+}

@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "Plus Jarka Sans";
+    src: url("https://cdn.gocloudnine.net/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Plus Jarka Sans";
+    src: url("https://cdn.gocloudnine.net/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+        #backtoblog {
+            display: none !important;
+        }
+        body {
+            color: #4a225d !important;
+            font-family: "Plus Jarka Sans","Helvetica Neue",sans-serif !important;
+            font-size: 13px !important;
+        }
+        .login {
+            height: 100vh !important;
+            display: flex;
+        }
+        .login form {
+            box-shadow: 0 4px 5px 0 rgba(0,0,0,0.1) !important;
+        }
+        .login .message, .login {
+            border-radius: 20px 20px 0 0 !important;
+            box-shadow: 0 4px 5px 0 rgba(0,0,0,0.1) !important;
+	        font-size: 1.1rem;
+        }
+		#login_error,  .login .success {
+			margin-bottom: 0 !important;
+}
+        .login-heading {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #35537e;
+        }
+        .login-message {
+            font-size: 1.4rem;
+            color: #afbdcc;
+            padding-top: 15px !important;
+        }
+        .login input[type="text"], .login input[type="password"] {
+            font-family: "Plus Jarka Sans","Helvetica Neue",sans-serif;
+            font-size: 24px;
+            background-color: #fff;
+            border-color: #afbdcc!important;
+            padding: 10px !important;
+            border-radius: 10px;
+        }
+        label {
+            border: 0px;
+            box-sizing: border-box;
+            font-family: inherit;
+            color: #35537e !important;
+            margin: 0px;
+            padding: 0px;
+            vertical-align: baseline;
+        }
+        label:not([for="rememberme"]) {
+            color: #35537e!important;
+            display: block;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.1px;
+            line-height: 1.875rem;
+            margin-bottom: 0.625rem;
+        }
+        .forgetmenot {
+            order: 2;
+            text-align: right;
+            margin-top: 10px !important;
+        }
+        #login #user_login, #login #user_pass {
+	        box-sizing: border-box;
+	        width: 100%;
+        }
+        #loginform {
+            border-radius: 0 0 20px 20px !important;
+            margin-top: 0 !important;
+            border: none !important;
+            padding: 40px 60px 60px 60px !important;
+            display: flex;
+            flex-direction: column;
+        }
+        .login .message {
+            color: #4a225d;
+            font-size: 1.25rem;
+            line-height: 2rem;
+            margin-bottom: 0 !important;
+            border: none !important;
+            display: flex;
+            flex-direction: column;
+            padding: 60px 60px 0 60px !important;
+            text-align: center !important;
+        }
+    
+    #nav a {
+	    display: flex;
+	    padding-top: 3rem !important;
+	    color: #4a225d;
+    	font-weight: 600;
+    }
+    #login #wp-submit, .c-btn-main {
+        position: relative;
+        z-index: 2;
+        align-self: center;
+        padding: 12px 50px;
+        border: 0;
+        border-radius: 15px;
+        background-color: #ee324b !important;
+        font-size: 1rem;
+        width: 100% !important;
+    }
+
+    .login h1 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .login h1 a {
+        background-image: url(https://gocloudnine.b-cdn.net/images/CNW-Logo-Icon.svg) !important;
+        background-image: none, url(https://gocloudnine.b-cdn.net/images/CNW-Logo-Icon.svg) !important;
+        align-self: center;
+        border: 0px;
+        bottom: 0px;
+        box-sizing: border-box;
+        color: #4a225d;
+        font-family: Helvetica, sans-serif;
+        font-size: 100%;
+        left: 0px;
+        letter-spacing: 0.1px;
+        line-height: 28px;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        right: 0px;
+        top: 0px;
+        vertical-align: baseline;
+        z-index: 2;
+        height: 86px !important;
+    }
+    body.login {
+        background-color: #f3f7ff !important;
+        height: 100% !important;
+        background-size: cover!important;
+    }
+    #login {
+        width: 640px !important;
+        padding-left: 10px !important;
+	    padding-right: 10px !important;
+    }
+    @media screen and (max-height:550px) {
+        #login {
+            position: relative;
+	        z-index: 2;
+	        align-self: center;
+        }
+    }
+    @media screen and (max-width:782px) {
+        #login {
+            position: relative;
+	        z-index: 2;
+	        align-self: center;
+        }
+        .interim-login input[type=checkbox] {
+            width: 1rem;
+            height: 1rem
+        }
+        .interim-login input[type=checkbox]:checked:before {
+            width: 1.3125rem;
+            height: 1.3125rem;
+            margin: -.1875rem 0 0 -.25rem
+        }
+    }
+    @media screen and (max-height:992px) {
+        #login {
+	        width: 25rem !important;
+            position: relative;
+	        z-index: 2;
+	        align-self: center;
+	        padding: 0 30px;
+        }
+    }
+    @media screen and (max-height:1450px) {
+        #login {
+            position: relative;
+	        z-index: 2;
+	        align-self: center;
+        }
+    }
